@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body> 
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulario Biblioteca</b></legend>
+            <div class="inputBox">
+                <label for="nome" class="labelInput">Nome completo</label>
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+            </div>
+            <label for="data_nascimento">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+            <div class="inputBox">        
+                <label for="email" class="labelInput">Email</label>
+                <input type="email" name="email" id="email" class="inputUser" required>
+            </div>
+            <div class="inputBox">
+                <label for="Senha" class="labelInput">Senha</label>
+                <input type="password" name="senha" id="senha" class="inputUser" required>
+            </div>
+            <div class="inputBox">
+                <label for="Telefone" class="labelInput">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+            </div>
+            <div class="inputBox">
+                <label for="nomem" class="labelInput">CEP</label>
+                <input type="text" name="CEP" id="CEP" class="inputUser" required>   
+            </div>
+            <div>
+                <select class="custom-select" name="sexo">
+                    <option selected="Sexo">Sexo</option>
+                    <option value="1">Masculino</option>
+                    <option value="2">Feminino</option>
+                </select>
+            </div>
+            <form>
+                <label for="nomem" class="labelInput">Newsletter</label>
+                <input type="checkbox" name="OPCAO" id="op1"> Desejo Receber Noticias
+                </form>
+            <button class="Enviar" name="Botao" id="enviar">Enviar</button>
+            
+            </div>
+        </form>
+    </div>
+</body>
+</html>
